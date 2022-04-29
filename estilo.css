@@ -1,0 +1,599 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*SEÇÃO 1*/
+
+.caixa1 {
+	background-image: url('Imagens/cidade.gif')
+}
+
+.titulo-principal {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.titulo-principal span.titulo {
+	background-color:;
+	padding: 18px;
+	font-size: 80px;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid white;
+	font-family: Arial;
+	box-shadow: 5px 5px 5px white;
+	text-shadow: 10px 5px 3px white;
+}
+
+.titulo-secundario {
+	position: absolute;
+	left: 0;
+	top: 80%;
+	width: 100%;
+	text-align: center;
+}
+
+.titulo-secundario span.titulo2 {
+	background-color:;
+	padding: 18px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	border:e;
+	font-family: Arial;
+	display: block;
+	font-weight: bold;
+}
+
+
+/*SEÇÃO 2*/
+
+.sobre-lexus {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sobre-lexus-texto {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 0px 10px;
+	width: 100%;
+}
+
+.foto-bike {
+	width: 440px;
+	height: 300px;
+	margin: 20px 10px;
+}
+
+.bike {
+	width: 420px;
+	height: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 60px;
+}
+
+
+/*SEÇÃO 3*/
+
+.caixa2 {
+	background: black;
+}
+
+.cidades {
+	position: absolute;
+	left: 0;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.cidades span.cidades-titulo {
+	background-color:;
+	padding: 18px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	border:e;
+	font-family: Arial;
+	display: block;
+	font-weight: bold;
+}
+
+.quadro-mae {
+	position: relative;
+	height: 300px;
+	width: 1400px;
+	top: 40%;
+	margin: 0 auto;
+}
+
+/*CARD 1*/
+.cards {
+	perspective: 500px;
+}
+
+.conteudo-quadro, .conteudo-quadro2, .conteudo-quadro3, .conteudo-quadro4 {
+	position: absolute;
+	left: 5%;
+}
+
+.card, .card2, .card3, .card4 {
+	width: 400px;
+	height: 250px;
+	background-image: url('Imagens/rio.jpg') ;
+	background-size: cover;
+	border: 1px solid rgba(255, 255, 255,.25);
+	border-radius: 4px;
+	position: relative;
+	transform-style: preserve-3d;
+	will-change: transform;
+	transition: transform .5s;
+}
+
+.card:hover, .card2:hover, .card3:hover, .card4:hover {
+	transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+}
+
+.card-title, .card2-title, .card3-title, .card4-title {
+	color: white;
+	position: relative;
+	top: 0px;
+	right: -20px;
+	transform: translateY(-50%);
+	transition: transform .5s;
+}
+
+.card:hover .card-title, .card2:hover .card2-title, .card3:hover .card3-title, .card3:hover .card3-title {
+	transform: translateZ(50px);
+}
+
+.conteudo-quadro2 {
+	left: 25%;
+}
+
+.card2 {
+	background-image: url('Imagens/ny.jpg') ;
+}
+
+
+.conteudo-quadro3 {
+	left: 45%;
+}
+
+.card3 {
+	background-image: url('Imagens/paris.jpg') ;
+}
+
+.conteudo-quadro4 {
+	left: 65%;
+}
+
+.card4 {
+	background-image: url('Imagens/sidney.jpg') ;
+}
+
+
+/*SEÇÃO 4*/
+.caixa3 {
+	background-image: url('Imagens/comercial.gif');
+}
+
+.box-mae {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.box1 {
+	width: 200px;
+	height: 260px;
+	background: white;
+	margin: 50px auto;
+	border: 6px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+	float: left;
+	margin-left: 140px;
+}
+
+.box1:hover {
+	background: black;
+	color: white;
+	border: 6px solid white;
+	height: 260px;
+}
+
+.box1 h2 {
+	color: #c3c3c3;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.box1 p {
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 6px;
+}
+
+.box2 {
+	margin: 280px auto;
+	float: left;
+	margin-left: 20px;
+
+}
+
+.box3 {
+	margin: 140px auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.box4 {
+	margin: 360px auto;
+	float: left;
+	margin-left: 20px;
+}
+
+/*SEÇÃO 5*/
+.caixa4 {
+	height: 100%;
+	background-image: url('Imagens/estrada.jpg');
+}
+
+.box-marketing {
+	position: relative;
+	top: 10%;
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	border: 4px solid red;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px red;
+}
+
+.box-marketing-texto {
+	margin: 220px auto;
+}
+
+.box-marketing-texto h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+}
+
+.caixa-botao {
+	position: relative;
+	width: 210px;
+	height: 100px;
+	border: ;
+	top: -20%;
+	margin: 0 auto;
+}
+
+#pai {
+	width: 406px;
+}
+
+button {
+	width: 100px;
+	border-radius: 6px;
+	box-shadow: 5px 5px 5px red;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: red;
+	box-shadow: 5px 5px 5px white;
+}
+
+.mensagem {
+	width: 300px;
+	border: none;
+	margin: 0 auto;
+}
+
+input {
+	position: relative;
+	width: 400px;
+	height: 30px;
+	border-radius: 6px;
+	box-shadow: 5px 5px 5px white;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*SEÇÃO 6*/
+.caixa5 {
+	height: 100%;
+	background-image: linear-gradient(to top, black, darkblue, darkred, red );
+}
+
+.caixa-cadastro {
+	position: relative;
+	top: 20%;
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	border: none;
+}
+
+form input{
+	width: 390px;
+	color: white;
+	background: none;
+	border: 1px solid white;
+	border-radius: 6px;
+}
+
+form input:hover {
+	background: black;
+}
+
+.enviar:hover {
+	background: black;
+}
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 1400px) {
+
+	/*body {
+		width: 1400px;
+	}*/
+
+	.foto-bike, .bike {
+		width: 0;
+		height: 0;
+	}
+
+	.sobre-lexus-texto {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.quadro-mae {
+		width: 960px;
+		height: 200px;
+		justify-content: center;
+	}
+
+	.conteudo-quadro {
+		left: 0;
+	}
+
+	.conteudo-quadro2 {
+		left: 25%;
+
+	}
+
+	.conteudo-quadro3 {
+		left: 50%
+
+	}
+
+	.conteudo-quadro4 {
+		left: 75%;
+	}
+
+	.card, .card2, .card3, .card4 {
+		width: 240px;
+		height: 160px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+
+	.box-mae {
+		display: flex;
+		flex-wrap: wrap;
+		height: 100%;
+		width: 600px;
+		justify-content: space-between;
+	}
+
+	.box1, .box2, .box3, .box4 {
+		width: 200px;
+		height: 160px;
+		background: white;
+		margin: 50px auto;
+		border: 6px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px black;
+		
+	}
+
+	.box-marketing {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 1000px) {
+
+	/*body {
+		width: 1000px;
+	}*/
+
+	.quadro-mae {
+		width: 600px;
+		height: 400px;
+		justify-content: center;
+	}
+
+	.conteudo-quadro {
+		left: 0;
+	}
+
+	.conteudo-quadro2 {
+		left: 0%;
+		top: 60%;
+
+	}
+
+	.conteudo-quadro3 {
+		left: 50%
+
+	}
+
+	.conteudo-quadro4 {
+		left: 50%;
+		top: 60%;
+	}
+
+	.card, .card2, .card3, .card4 {
+		width: 300px;
+		height: 160px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+
+}
+
+@media (max-width: 660px) {
+
+	.foto-bike {
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+
+	.bike {
+		padding: 0px;
+	}
+
+	.cidades {
+		top: 2%;
+	}
+
+	.cidades span.cidades-titulo {
+		font-size: 10px;
+	}
+
+	.quadro-mae {
+		width: 300px;
+		height: 500px;
+		justify-content: center;
+		top: 16%;
+	}
+
+	.conteudo-quadro {
+		left: 0%;
+	}
+
+	.conteudo-quadro2 {
+		left: 0%;
+		top: 24%;
+
+	}
+
+	.conteudo-quadro3 {
+		left: 0%;
+		top: 50%;
+
+	}
+
+	.conteudo-quadro4 {
+		left: 0%;
+		top: 74%;
+	}
+
+	.card, .card2, .card3, .card4 {
+		width: 300px;
+		height: 140px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+
+	.box-mae {
+		display: flex;
+		flex-wrap: wrap;
+		flex-shrink: start;
+		height: 860px;
+		width: 300px;
+		justify-content: space-between;
+		align-content: flex-start;
+	}
+
+	.box1, .box2, .box4 {
+		width: 180px;
+		height: 120px;
+		background: white;
+		margin: 10px auto;
+		border: 6px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px black;
+	}
+
+	.box1:hover {
+		height: 120px;
+	}
+
+	.box2 {
+		padding-top: 0;
+	}
+
+	.box-marketing {
+		width: 300px;
+		height: 400px;
+	}
+
+	.box-marketing-texto {
+		margin-top: 60px;
+	}
+
+	.box-marketing-texto h2 {
+		font-size: 30px;
+	}
+
+	.caixa-cadastro {
+		width: 340px;
+	}
+
+	form input {
+		width: 340px;
+	}
+
+	#resultado {
+		width: 300px;
+	}
+
+	#pai {
+		width: 300px;
+	}
+}
